@@ -10,7 +10,7 @@ This project showcases an Exploratory Data Analysis (EDA) performed on a skincar
 
 ## Dataset Description
 
-The dataset, named `skincare`, contains transactional sales data. Here are the key columns:
+The dataset, named `Skin_Care Target`, contains transactional sales data. Here are the key columns:
 
 * **`order_id`**: Unique identifier for each transaction line item.
 * **`product`**: Name of the product sold.

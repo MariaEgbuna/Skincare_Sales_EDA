@@ -10,7 +10,7 @@ This project showcases an Exploratory Data Analysis (EDA) performed on a skincar
 
 ## Dataset Description
 
-The dataset, named `Skin_Care Target`, contains transactional sales data. Here are the key columns:
+The dataset, named `Skin_Care Target.csv`, contains transactional sales data. Here are the key columns:
 
 * **`order_id`**: Unique identifier for each transaction line item.
 * **`product`**: Name of the product sold.
@@ -62,22 +62,22 @@ This EDA revealed several critical insights about the skincare business:
 ## Analytical Questions Answered
 
 This project addressed the following analytical questions using SQL queries:
-    **Average Sales and Profit per Order?**
-    **Highest Average Order Value (AOV) Segment?**
-    **Distinct Products per Category?**
-    **Top 5 Customers by Profit**
-    **Subcategory with Highest Average Discount & Profit**
-    **Monthly Sales and Profit Trends**
-    **Products Sold at a Loss**
-    **Home and Accessories Losses by Country**
-    **Profit Margin Percentage per Category:**
+    **Average Sales and Profit per Order?**,
+    **Highest Average Order Value (AOV) Segment?**,
+    **Distinct Products per Category?**,
+    **Top 5 Customers by Profit**,
+    **Subcategory with Highest Average Discount & Profit**,
+    **Monthly Sales and Profit Trends**,
+    **Products Sold at a Loss**,
+    **Home and Accessories Losses by Country**,
+    **Profit Margin Percentage per Category**.
     
 ## How to Replicate This Analysis
 
 To run this analysis on your own:
 
 1.  **PostgreSQL Database:** Ensure you have a PostgreSQL database set up.
-2.  **Load Data:** Import your `skincare` dataset into a table named `skincare` in your PostgreSQL database.
+2.  **Load Data:** Import your `Skin_Care Target.csv` dataset into a table named `skincare` in your PostgreSQL database.
 3.  **Execute Queries:** Use a SQL client (like psql, DBeaver, PgAdmin, or VS Code with a PostgreSQL extension) to connect to your database. Then, execute the SQL queries provided in the `skincare_EDA.sql` file.
 
 ---

@@ -78,6 +78,6 @@ To run this analysis on your own:
 
 1.  **PostgreSQL Database:** Ensure you have a PostgreSQL database set up.
 2.  **Load Data:** Import your `Skin_Care Target.csv` dataset into a table named `skincare` in your PostgreSQL database.
-3.  **Execute Queries:** Use a SQL client (like psql, DBeaver, PgAdmin, or VS Code with a PostgreSQL extension) to connect to your database. Then, execute the SQL queries provided in the `skincare_EDA.sql` file.
+3.  **Execute Queries:** Use a SQL client (like psql, DBeaver, PgAdmin, or VS Code with a PostgreSQL extension) to connect to your database. Then, execute the SQL queries provided in the [`Skincare_EDA.sql`](Skincare_EDA.sql) file.
 
 ---
